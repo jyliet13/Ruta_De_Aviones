@@ -60,7 +60,7 @@ const encontrarRuta = (req, res) => {
 
                 if (!ruta || ruta.length === 0) {
                     return res.status(404).json({ mensaje: "No hay ruta disponible." });
-                }
+    }
 
                 return res.json({ ruta });
             });
