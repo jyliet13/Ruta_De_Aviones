@@ -7,7 +7,7 @@ const vueloRoutes = require('./src/routes/vuelo');
 const app = express();
 app.use(express.json());
 
-//rutas
+
 // Rutas
 app.use('/api/rutas', rutaRoutes); // Corrección en la URL
 app.use('/api/vuelos', vueloRoutes);
